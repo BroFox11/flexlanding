@@ -1,0 +1,98 @@
+body {
+    background-color: black;
+    padding-top: 1px;
+}
+
+header {
+    color: white;
+    float: left;
+    padding: 15px;
+}
+
+img {
+    width:460px;
+    float: inline-end;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: hsl(0, 0%, 25%);
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: hsl(0, 0%, 10%);
+}
+
+.navbar li {
+    float: right;
+}
+
+.navbar ul {
+    overflow: hidden;
+}
+
+.title {
+    padding: 125px;
+}
+
+h1 {
+    color: white;
+    height: 60px;
+}
+
+h2 {
+    color: white;
+    height: 45px;
+}
+
+h3 {
+    color: white;
+    height: 65px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.item {
+    width: 95%;
+    height: 135px;
+    background-color: slategray;
+    color: black;
+    margin: 10px;
+}
+
+.flex-container {
+    display: flex;
+    background-color: darkgray;
+    justify-content: center;
+    align-items: flex-end;
+    height: 395px;
+    padding: 85px;
+}
+
+.button {
+    cursor: pointer;
+    position: absolute;
+    top: 250px;
+    color: lightblue;
+}
+
+button {
+    cursor: pointer;
+    background-color: lightblue;
+    padding: 3px;
+}
+
